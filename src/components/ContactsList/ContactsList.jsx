@@ -10,7 +10,7 @@ export const ContactsList = () => {
 
   const dispatch = useDispatch();
   const visibleContacts = getVisibleContacts(contacts, filter);
-// ?
+
   return (
     <List>
       {visibleContacts.map(({ id, name, number }) => (
